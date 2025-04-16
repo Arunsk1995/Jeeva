@@ -19,6 +19,7 @@ public class ScrollAppiumRunner extends BaseClass {
 		 Thread.sleep(3000);
 	 scrollToElementAndClick("(//android.widget.Button[@text=\"Collect Coupon\"])[3]");
 //		 driver.findElement(AppiumBy.androidUIAutomator("new UiSelector().text(\"4+ star deals for you\")")).click();
+	 Thread.sleep(2000);
 		
 	}
 
